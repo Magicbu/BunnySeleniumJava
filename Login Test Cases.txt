@@ -1,0 +1,99 @@
+                                 Login Test Scenarios
+                                 ---------------------
+
+I. Verify that the User is able to Login with Valid Credentials
+Steps:   1. Enter Valid User Name in Username field
+         2. Enter Valid Password in Password field
+         3. Click "Login" button
+Expected Result: User should be able to login to the test site.
+
+
+
+
+II.Verify that the User is not able to Login with a Valid Username and invalid Password
+         1. Enter Valid User Name
+         2. Enter Invalid Password
+         3. Click "Login" button
+Expected Result: User should get a warning message  "Epic sadface: Username and password do not match any user in this service".
+
+
+
+
+III.Verify that the User is not able to Login with a locked_out_user and valid Password
+         1. Enter locked_out_user in User Name field
+         2. Enter valid Password
+         3. Click "Login" button
+Expected Result: User should get a warning message  "Epic sadface: Sorry, this user has been locked out".
+
+
+
+
+IV.Verify that the User is not able to Login with a Blank Username and Valid Password
+         1. Leave Username field blank
+         2. Enter Valid Password 
+         3. Click "Login" button
+Expected Result: User should get a warning message  "Epic sadface: Username is required".
+
+
+
+
+V.Verify that the User is not able to Login with a Valid Username and Blank Password
+         1. Enter Valid Username
+         2. Leave Password field blank
+         3. Click "Login" button
+Expected Result: User should get a warning message "Epic sadface: Password is required".
+
+
+
+
+VI. Verify that the User is not able to log in with a Blank Username or  Blank Password
+         1. Leave Username filed blank
+         2. Leave Password field blank
+         3. Click "Login" button
+Expected Result: User should get a warning message "Epic sadface: Username is required".
+
+
+
+
+VII. Verify that the User is not able to log in with an Invalid Username and Valid Password
+         1. Enter Invalid Username
+         2. Enter Valid Password
+         3. Click "Login" button
+Expected Result: User should get a warning message "Epic sadface: Username and password do not match any user in this service".
+
+
+
+
+VIII.Verify that the User is not able to Login with an Invalid Username and Invalid Password
+         1. Enter Invalid User Name
+         2. Enter Invalid Password
+         3. Click "Login" button
+Expected Result: User should get a warning message "Epic sadface: Username and password do not match any user in this service".
+
+
+
+
+IX.Verify that the user is not able to login with Valid Username in all Uppercase letters and Valid password
+         1. Enter Valid User Name in all Uppercases
+         2. Enter Valid Password
+         3. Click "Login" button
+Expected Result: User should should get a warning message "Epic sadface: Username and password do not match any user in this service".
+
+
+
+
+X.Verify that the user is not able to login with Valid Password in all Uppercase letters and Valid Username
+         1. Enter Valid User Name 
+         2. Enter Valid Password in all Uppercases.
+         3. Click "Login" button
+Expected Result: User should get a warning message "Epic sadface: Username and password do not match any user in this service".
+
+ 
+
+
+XI. Verify that the user is not able to login with Valid Password in all Uppercase letters and Valid Username
+         1. Enter valid User Name
+         2. Enter valid Password in all Uppercases
+         3. Click "Login" button
+Expected Result: User should get a warning message "Epic sadface: Username and password do not match any user in this service".
+
